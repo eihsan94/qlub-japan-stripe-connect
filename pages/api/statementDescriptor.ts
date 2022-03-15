@@ -28,6 +28,7 @@ export default async function handler(
         statement_descriptor_kanji,
       );
       const DEV_KEY = `${STRIPE_SK}`
+
       const stripe = new Stripe(DEV_KEY, {
         apiVersion: '2020-08-27'
       })
